@@ -114,16 +114,16 @@
             </h1>
         </header>
 
-        <section class="experiment recordrtc" style="display: none;">
+        <section class="experiment recordrtc">
             <div style="margin-top: 10px;" id="recording-player"></div>
-            <h2 class="header" style="display: none;margin: 0;line-height:.5">
+            <h2 class="header" style="margin: 0;line-height:.5">
                     <option value="record-audio-plus-video">Microphone+Camera</option>
                     <option value="record-audio" selected>Microphone</option>
                     <option value="record-screen">Full Screen</option>
                     <option value="record-audio-plus-screen">Microphone+Screen</option>
                 </select>
 
-                <span style="font-size: 15px">into</span>
+                <span style="font-size: 15px;display:none">into</span>
 
                 <select class="media-container-format">
                     <option>default</option>
@@ -153,7 +153,7 @@
                 </div>
 
                 <!-- <hr style="border-top: 0;border-bottom: 1px solid rgb(189, 189, 189);margin: 4px -12px;margin-top: 8px;"> -->
-                <select class="media-resolutions" style="display: none;">
+                <select class="media-resolutions">
                     <option value="default">Default resolutions</option>
                     <option value="1920x1080">1080p</option>
                     <option value="1280x720">720p</option>
